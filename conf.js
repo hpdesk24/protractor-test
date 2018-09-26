@@ -7,9 +7,10 @@ var reporter = new HtmlScreenshotReporter({
 
 exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: [
-      'specs/filter_spec.js'
-    ],
+    suites: {
+      filter: 'specs/filter_spec.js',
+      mock: 'specs/mockmodule_spec.js'
+    },
     directConnect: true,
     capabilities: {
       browserName: 'chrome',

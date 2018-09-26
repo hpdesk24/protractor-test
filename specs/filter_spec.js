@@ -1,6 +1,6 @@
 let HomePage = require('../pages/angularhomepage.po');
 
-describe('angularjs homepage todo list', function () {
+describe('angularjs homepage async/await filter', function () {
 
     let homePage = new HomePage();
 
