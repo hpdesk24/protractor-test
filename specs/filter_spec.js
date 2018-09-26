@@ -1,4 +1,4 @@
-let HomePage = require('./homepage.po');
+let HomePage = require('../pages/angularhomepage.po');
 
 describe('angularjs homepage todo list', function () {
 
