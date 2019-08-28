@@ -4,12 +4,15 @@
   "description": "prot",
   "main": "conf.js",
   "scripts": {
-    "test": "./node_modules/.bin/protractor conf.js"
+    "test": "./node_modules/.bin/protractor conf.js",
+    "format": "./node_modules/.bin/prettier --write *.js  */*.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "protractor": "^5.4.1",
+    "prettier": "^1.18.2",
+    "protractor": "^5.4.2",
+    "protractor-image-comparison": "^3.3.0",
     "protractor-jasmine2-screenshot-reporter": "^0.5.0"
   }
 }
